@@ -1,0 +1,19 @@
+<view class="group">
+    <block wx:for-items="{{iconSize}}">
+        <icon type="success" size="{{item}}"/>
+    </block>
+</view>
+
+<view class="group">
+    <scroll-view scroll-x>
+        <block wx:for-items="{{iconType}}">
+            <icon type="{{item}}" size="45"/>
+        </block>
+    </scroll-view>
+</view>
+
+<view class="group">
+    <block wx:for-items="{{iconColor}}">
+        <icon type="success" size="45" color="{{item}}"/>
+    </block>
+</view>

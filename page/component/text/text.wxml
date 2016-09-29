@@ -1,0 +1,7 @@
+<view class="section section_gap">
+    <text>{{text}}</text>
+    <view class="btn-area">
+        <button bindtap="add">add line</button>
+        <button bindtap="remove">remove line</button>
+    </view>
+</view>

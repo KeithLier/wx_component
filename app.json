@@ -1,0 +1,52 @@
+{
+    "pages":[
+        "page/component/index",
+        "page/component/scroll/scrollView",
+        "page/component/swiper/swiper",
+        "page/component/icon/icon",
+        "page/component/text/text",
+        "page/component/button/button",
+        "page/component/progress/progress",
+        "page/API/index",
+        "page/API/index"
+    ],
+    "window":{
+        "navigationBarTextStyle":"black",
+        "navigationBarTitleText":"Keith小程序",
+        "navigationBarBackgroundColor":"#fbf9fe",
+        "backgroundColor":"#fbf9fe"
+    },
+    "tabBar":{
+        "color":"#dddddd",
+        "selectedColor":"#3cc51f",
+        "bordorStyle":"black",
+        "backgroundColor":"#ffffff",
+        "list":[
+            {
+                "pagePath":"page/component/index",
+                "iconPath":"image/wechat.png",
+                "selectedIconPath":"image/wechatHL.png",
+                "text":"组件"
+            },
+            {
+                "pagePath":"page/API/index",
+                "iconPath":"image/wechat.png",
+                "selectedIconPath":"image/wechatHL.png",
+                "text":"接口"
+            },
+            {
+                "pagePath":"page/API/index",
+                "iconPath":"image/wechat.png",
+                "selectedIconPath":"image/wechatHL.png",
+                "text":"我的"
+            }
+        ]
+    },
+    "networkTimeout":{
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+    },
+    "debug":true
+}
