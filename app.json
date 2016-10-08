@@ -1,5 +1,6 @@
 {
-    "pages":[
+    "pages":[  
+        "page/API/index",     
         "page/component/index",
         "page/component/scroll/scrollView",
         "page/component/swiper/swiper",
@@ -7,8 +8,9 @@
         "page/component/text/text",
         "page/component/button/button",
         "page/component/progress/progress",
-        "page/API/index",
-        "page/API/index"
+        "page/component/checkbox/checkbox",
+        "page/component/radio/radio",
+        "page/table/index"
     ],
     "window":{
         "navigationBarTextStyle":"black",
@@ -23,19 +25,19 @@
         "backgroundColor":"#ffffff",
         "list":[
             {
-                "pagePath":"page/component/index",
-                "iconPath":"image/wechat.png",
-                "selectedIconPath":"image/wechatHL.png",
-                "text":"组件"
-            },
-            {
                 "pagePath":"page/API/index",
                 "iconPath":"image/wechat.png",
                 "selectedIconPath":"image/wechatHL.png",
                 "text":"接口"
             },
             {
-                "pagePath":"page/API/index",
+                "pagePath":"page/table/index",
+                "iconPath":"image/wechat.png",
+                "selectedIconPath":"image/wechatHL.png",
+                "text":"组件"
+            },
+            {
+                "pagePath":"page/component/index",
                 "iconPath":"image/wechat.png",
                 "selectedIconPath":"image/wechatHL.png",
                 "text":"我的"

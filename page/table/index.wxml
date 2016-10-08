@@ -1,0 +1,60 @@
+<view class="index">
+    <view class="head">
+        <view class="title">小程序组件</view>
+        <view class="desc">展示小程序组件的DEMO</view>
+    </view>
+    <view class="body">
+        <view class="widgets">
+            <view class="widgets__item">
+                <view id="view" class="widgets__info {{viewShow ? 'widgets__info_show' : ''}}" bindtap="widgetsToggle">
+                    <text class="widgets__info-name">内容分区</text>
+                    <image class="widgets__info-img" src="resources/kind/view.png" background-size="cover" />
+                </view>
+                <view class="widgets__list {{viewShow ? 'widgets__list_show' : ''}}">
+                    <navigator url="../component/scroll/scrollView" class="widget">
+                        <text class="widget__name">scroll</text>
+                        <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="../component/swiper/swiper" class="widget">
+                        <text class="widget__name">swiper</text>
+                        <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
+                        <view class="widget__line"></view>
+                    </navigator>
+                </view> 
+            </view>
+            <view class="widgets__item">
+                <view id="content" class="widgets__info {{contentShow ? 'widgets__info_show' : ''}}" bindtap="widgetsToggle">
+                    <text class="widgets__info-name">内容</text>
+                    <image class="widgets__info-img" src="resources/kind/content.png" background-size="cover" />
+                </view>
+                <view class="widgets__list {{contentShow ? 'widgets__list_show' : ''}}">
+                    <navigator url="../component/text/text" class="widget">
+                        <text class="widget__name">text</text>
+                        <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="../component/icon/icon" class="widget">
+                        <text class="widget__name">icon</text>
+                        <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="../component/text/text" class="widget">
+                        <text class="widget__name">mask</text>
+                        <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="../component/toast/toast" class="widget">
+                        <text class="widget__name">toast</text>
+                        <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
+                        <view class="widget__line"></view>
+                    </navigator>
+                    <navigator url="../component/progress/progress" class="widget">
+                        <text class="widget__name">progress</text>
+                        <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
+                    </navigator>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -42,6 +42,16 @@ Page({
     })
   },
 
+  toCheckbox: function(){
+    wx.navigateTo({
+      url: "checkbox/checkbox"
+    })
+  },
+  toRadio: function(){
+    wx.navigateTo({
+      url: "radio/radio"
+    })
+  },
   hello: function(){
     common.sayHello('MANI')
   }  

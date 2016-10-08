@@ -4,3 +4,5 @@
 <button bindtap="toText"> To Text </button>
 <button bindtap="toProgress"> To Progress </button>
 <button bindtap="toButton"> To Button </button>
+<button bindtap="toCheckbox"> To Checkbox </button>
+<button bindtap="toRadio"> To Radio </button>
